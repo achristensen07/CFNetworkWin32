@@ -13,5 +13,267 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\FTP">
+      <UniqueIdentifier>{5c3eb14b-ef60-4d5a-ab83-9ec19dc920b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Host">
+      <UniqueIdentifier>{72c53ed1-9ddb-4e3c-9995-8e74d0e12ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP">
+      <UniqueIdentifier>{99361bcc-aeaa-4f2d-97d7-620be2401796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP\NTLM">
+      <UniqueIdentifier>{f6803e1b-20dd-41f8-8c62-edc4133658d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP\SPNEGO">
+      <UniqueIdentifier>{ca407807-e37d-432d-b1c4-471acd078dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetDiagnostics">
+      <UniqueIdentifier>{aba06d59-6908-493a-8556-0b8bfbd01e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Proxies">
+      <UniqueIdentifier>{7ed1c115-b718-407a-b7ec-5c12ec0685bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NetServices">
+      <UniqueIdentifier>{7fd3e71b-3945-4574-abb0-7f257f39aa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SharedCode">
+      <UniqueIdentifier>{6c194af8-3b76-427b-bb81-3e9e9072e8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stream">
+      <UniqueIdentifier>{c98315b2-ac55-447c-a763-c82b1ccbc28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\URL">
+      <UniqueIdentifier>{d791c799-f924-4db0-9c39-6e83b7f6bb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTTP">
+      <UniqueIdentifier>{8f70ffb1-48c6-40fc-b103-cd4903244ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTTP\SPNEGO">
+      <UniqueIdentifier>{c4ec547d-ec2b-48bd-931a-9eb168566e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTTP\NTLM">
+      <UniqueIdentifier>{f5c4dc78-c502-4a8b-bfc1-4823da8d510b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetDiagnostics">
+      <UniqueIdentifier>{a4c32d84-320d-44eb-8dc5-846065f1ab2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NetServices">
+      <UniqueIdentifier>{adfc729e-cafd-46e7-81e2-f3fb4c3f5e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stream">
+      <UniqueIdentifier>{9dc57a69-4413-433c-a661-56ab82862ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SharedCode">
+      <UniqueIdentifier>{edb5799b-0fa5-429a-a280-d9845ef91661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Proxies">
+      <UniqueIdentifier>{222533c0-b032-4ca9-b9f1-c5b5f7332e68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFNetwork-129.20\FTP\CFFTPStream.c">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\Host\CFHost.c">
+      <Filter>Source Files\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPAuthentication.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPConnection.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPFilter.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPMessage.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPServer.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPStream.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\NTLM\ntlmBlobPriv.cpp">
+      <Filter>Source Files\HTTP\NTLM</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\NTLM\NtlmGenerator.cpp">
+      <Filter>Source Files\HTTP\NTLM</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoBlob.cpp">
+      <Filter>Source Files\HTTP\SPNEGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoDER.cpp">
+      <Filter>Source Files\HTTP\SPNEGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoKrb.cpp">
+      <Filter>Source Files\HTTP\SPNEGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticPing.c">
+      <Filter>Source Files\NetDiagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnostics.c">
+      <Filter>Source Files\NetDiagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticsProtocolUser.c">
+      <Filter>Source Files\NetDiagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\CFNetServiceBrowser.c">
+      <Filter>Source Files\NetServices</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\CFNetServiceMonitor.c">
+      <Filter>Source Files\NetServices</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\CFNetServices.c">
+      <Filter>Source Files\NetServices</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\DeprecatedDNSServiceDiscovery.c">
+      <Filter>Source Files\NetServices</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\Proxies\ProxySupport.c">
+      <Filter>Source Files\Proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFNetConnection.c">
+      <Filter>Source Files\SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFNetworkSchedule.c">
+      <Filter>Source Files\SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFNetworkThreadSupport.c">
+      <Filter>Source Files\SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFServer.c">
+      <Filter>Source Files\SharedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\Stream\CFSocketStream.c">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\URL\_CFURLAccess.c">
+      <Filter>Source Files\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\CFNetwork.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\JavaScriptGlue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\libresolv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\security_cdsa_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFFTPStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFFTPStreamPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHostPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPAuthentication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPConnectionPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPMessagePriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPServerPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPStreamPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetDiagnostics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetDiagnosticsPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetServicesPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetworkDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetworkPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFServerPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFSocketStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFSocketStreamPriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoBlob.h">
+      <Filter>Header Files\HTTP\SPNEGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoDER.h">
+      <Filter>Header Files\HTTP\SPNEGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoKrb.h">
+      <Filter>Header Files\HTTP\SPNEGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\NTLM\ntlmBlobPriv.h">
+      <Filter>Header Files\HTTP\NTLM</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\NTLM\NtlmGenerator.h">
+      <Filter>Header Files\HTTP\NTLM</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\CFHTTPConnectionInternal.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\HTTP\CFHTTPInternal.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticsInternal.h">
+      <Filter>Header Files\NetDiagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticsProtocol.h">
+      <Filter>Header Files\NetDiagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\NetServices\DeprecatedDNSServiceDiscovery.h">
+      <Filter>Header Files\NetServices</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Stream\CFSocketStreamImpl.h">
+      <Filter>Header Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\SharedCode\CFNetConnection.h">
+      <Filter>Header Files\SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\SharedCode\CFNetworkSchedule.h">
+      <Filter>Header Files\SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\SharedCode\CFNetworkThreadSupport.h">
+      <Filter>Header Files\SharedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CFNetwork-129.20\Proxies\ProxySupport.h">
+      <Filter>Header Files\Proxies</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

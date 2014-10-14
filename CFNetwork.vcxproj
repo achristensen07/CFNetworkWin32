@@ -18,6 +18,139 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFNetwork-129.20\CFNetwork.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\FTP\CFFTPStream.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\Host\CFHost.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPAuthentication.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPConnection.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPFilter.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPMessage.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPServer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\CFHTTPStream.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\NTLM\ntlmBlobPriv.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\NTLM\NtlmGenerator.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoBlob.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoDER.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoKrb.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\JavaScriptGlue.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\libresolv.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticPing.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnostics.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticsProtocolUser.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\CFNetServiceBrowser.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\CFNetServiceMonitor.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\CFNetServices.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\NetServices\DeprecatedDNSServiceDiscovery.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\Proxies\ProxySupport.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\security_cdsa_utils.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFNetConnection.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFNetworkSchedule.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFNetworkThreadSupport.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\SharedCode\CFServer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\Stream\CFSocketStream.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="CFNetwork-129.20\URL\_CFURLAccess.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFNetwork-129.20\Headers\CFFTPStream.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFFTPStreamPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHost.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHostPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPAuthentication.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPConnectionPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPMessage.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPMessagePriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPServerPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPStream.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFHTTPStreamPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetDiagnostics.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetDiagnosticsPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetServices.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetServicesPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetwork.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetworkDefs.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFNetworkPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFServerPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFSocketStream.h" />
+    <ClInclude Include="CFNetwork-129.20\Headers\CFSocketStreamPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\CFHTTPConnectionInternal.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\CFHTTPInternal.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\NTLM\ntlmBlobPriv.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\NTLM\NtlmGenerator.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoBlob.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoDER.h" />
+    <ClInclude Include="CFNetwork-129.20\HTTP\SPNEGO\spnegoKrb.h" />
+    <ClInclude Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticsInternal.h" />
+    <ClInclude Include="CFNetwork-129.20\NetDiagnostics\CFNetDiagnosticsProtocol.h" />
+    <ClInclude Include="CFNetwork-129.20\NetServices\DeprecatedDNSServiceDiscovery.h" />
+    <ClInclude Include="CFNetwork-129.20\Proxies\ProxySupport.h" />
+    <ClInclude Include="CFNetwork-129.20\SharedCode\CFNetConnection.h" />
+    <ClInclude Include="CFNetwork-129.20\SharedCode\CFNetworkSchedule.h" />
+    <ClInclude Include="CFNetwork-129.20\SharedCode\CFNetworkThreadSupport.h" />
+    <ClInclude Include="CFNetwork-129.20\Stream\CFSocketStreamImpl.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AEA97A4B-7A44-45DE-8F03-D25908D5597A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -80,10 +213,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__i386__;WIN32_LEAN_AND_MEAN;CFLITELIB_EXPORTS;DEPLOYMENT_TARGET_WINDOWS;__STDC_LIMIT_MACROS;CF_BUILDING_CF;_WIN32_WINNT=0x0500;WINVER=0x0500;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;__WIN32__;_WINDOWS;WIN32;_USRDLL;_NOTHREADS;NOT_HAVE_SA_LEN;MDNS_DEBUGMSGS=0;USE_TCP_LOOPBACK;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1;OPENSSL_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)CFNetwork-129.20\Headers;$(SolutionDir)CFNetwork-129.20\HTTP;$(SolutionDir)CFNetwork-129.20\HTTP\NTLM;$(SolutionDir)CFNetwork-129.20\HTTP\SPNEGO;$(SolutionDir)CFNetwork-129.20\NetDiagnostics;$(SolutionDir)CFNetwork-129.20\NetServices;$(SolutionDir)CFNetwork-129.20\Proxies;$(SolutionDir)CFNetwork-129.20\SharedCode;$(SolutionDir)CFNetwork-129.20\Stream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -92,10 +226,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__x86_64__;WIN32_LEAN_AND_MEAN;CFLITELIB_EXPORTS;DEPLOYMENT_TARGET_WINDOWS;__STDC_LIMIT_MACROS;CF_BUILDING_CF;_WIN32_WINNT=0x0500;WINVER=0x0500;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;__WIN32__;_WINDOWS;WIN32;_USRDLL;_NOTHREADS;NOT_HAVE_SA_LEN;MDNS_DEBUGMSGS=0;USE_TCP_LOOPBACK;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1;OPENSSL_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)CFNetwork-129.20\Headers;$(SolutionDir)CFNetwork-129.20\HTTP;$(SolutionDir)CFNetwork-129.20\HTTP\NTLM;$(SolutionDir)CFNetwork-129.20\HTTP\SPNEGO;$(SolutionDir)CFNetwork-129.20\NetDiagnostics;$(SolutionDir)CFNetwork-129.20\NetServices;$(SolutionDir)CFNetwork-129.20\Proxies;$(SolutionDir)CFNetwork-129.20\SharedCode;$(SolutionDir)CFNetwork-129.20\Stream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -105,11 +240,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__i386__;WIN32_LEAN_AND_MEAN;CFLITELIB_EXPORTS;DEPLOYMENT_TARGET_WINDOWS;__STDC_LIMIT_MACROS;CF_BUILDING_CF;_WIN32_WINNT=0x0500;WINVER=0x0500;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;__WIN32__;_WINDOWS;WIN32;_USRDLL;_NOTHREADS;NOT_HAVE_SA_LEN;MDNS_DEBUGMSGS=0;USE_TCP_LOOPBACK;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1;OPENSSL_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)CFNetwork-129.20\Headers;$(SolutionDir)CFNetwork-129.20\HTTP;$(SolutionDir)CFNetwork-129.20\HTTP\NTLM;$(SolutionDir)CFNetwork-129.20\HTTP\SPNEGO;$(SolutionDir)CFNetwork-129.20\NetDiagnostics;$(SolutionDir)CFNetwork-129.20\NetServices;$(SolutionDir)CFNetwork-129.20\Proxies;$(SolutionDir)CFNetwork-129.20\SharedCode;$(SolutionDir)CFNetwork-129.20\Stream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -121,11 +257,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__x86_64__;WIN32_LEAN_AND_MEAN;CFLITELIB_EXPORTS;DEPLOYMENT_TARGET_WINDOWS;__STDC_LIMIT_MACROS;CF_BUILDING_CF;_WIN32_WINNT=0x0500;WINVER=0x0500;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;__WIN32__;_WINDOWS;WIN32;_USRDLL;_NOTHREADS;NOT_HAVE_SA_LEN;MDNS_DEBUGMSGS=0;USE_TCP_LOOPBACK;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1;OPENSSL_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)CFNetwork-129.20\Headers;$(SolutionDir)CFNetwork-129.20\HTTP;$(SolutionDir)CFNetwork-129.20\HTTP\NTLM;$(SolutionDir)CFNetwork-129.20\HTTP\SPNEGO;$(SolutionDir)CFNetwork-129.20\NetDiagnostics;$(SolutionDir)CFNetwork-129.20\NetServices;$(SolutionDir)CFNetwork-129.20\Proxies;$(SolutionDir)CFNetwork-129.20\SharedCode;$(SolutionDir)CFNetwork-129.20\Stream;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

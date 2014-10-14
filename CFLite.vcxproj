@@ -576,7 +576,7 @@ mkdir "$(SolutionDir)include\CFNetwork"
 mkdir "$(SolutionDir)include\CoreFoundation"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\*.h" "$(SolutionDir)include\CoreFoundation\"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\include\*.h" "$(SolutionDir)include"
-xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\SharedCode\*.h" "$(SolutionDir)include\CFNetwork"
+xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\Headers\*.h" "$(SolutionDir)include\CFNetwork"
 xcopy /d /Y /R "$(ProjectDir)icu4c-54_1\include\unicode\*.h" "$(SolutionDir)include\unicode"</Command>
       <Message>copy headers</Message>
     </PreBuildEvent>
@@ -604,7 +604,7 @@ mkdir "$(SolutionDir)include\CFNetwork"
 mkdir "$(SolutionDir)include\CoreFoundation"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\*.h" "$(SolutionDir)include\CoreFoundation\"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\include\*.h" "$(SolutionDir)include"
-xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\SharedCode\*.h" "$(SolutionDir)include\CFNetwork"
+xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\Headers\*.h" "$(SolutionDir)include\CFNetwork"
 xcopy /d /Y /R "$(ProjectDir)icu4c-54_1\include\unicode\*.h" "$(SolutionDir)include\unicode"</Command>
       <Message>copy headers</Message>
     </PreBuildEvent>
@@ -635,7 +635,7 @@ mkdir "$(SolutionDir)include\CFNetwork"
 mkdir "$(SolutionDir)include\CoreFoundation"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\*.h" "$(SolutionDir)include\CoreFoundation\"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\include\*.h" "$(SolutionDir)include"
-xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\SharedCode\*.h" "$(SolutionDir)include\CFNetwork"
+xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\Headers\*.h" "$(SolutionDir)include\CFNetwork"
 xcopy /d /Y /R "$(ProjectDir)icu4c-54_1\include\unicode\*.h" "$(SolutionDir)include\unicode"</Command>
     </PreBuildEvent>
     <PreBuildEvent>
@@ -668,7 +668,7 @@ mkdir "$(SolutionDir)include\CFNetwork"
 mkdir "$(SolutionDir)include\CoreFoundation"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\*.h" "$(SolutionDir)include\CoreFoundation\"
 xcopy /d /Y /R "$(ProjectDir)opencflite-476.19.0\include\*.h" "$(SolutionDir)include"
-xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\SharedCode\*.h" "$(SolutionDir)include\CFNetwork"
+xcopy /d /Y /R "$(ProjectDir)CFNetwork-129.20\Headers\*.h" "$(SolutionDir)include\CFNetwork"
 xcopy /d /Y /R "$(ProjectDir)icu4c-54_1\include\unicode\*.h" "$(SolutionDir)include\unicode"</Command>
     </PreBuildEvent>
     <PreBuildEvent>

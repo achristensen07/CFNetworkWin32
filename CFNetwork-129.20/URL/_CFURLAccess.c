@@ -81,7 +81,7 @@ CFHTTPMessageRef _CFHTTPMessageSendRequest(CFHTTPMessageRef request) {
         CFWriteStreamClose(writeStream);
     }
     if (!fail) {
-        CFDataRef messageBody = CFWriteStreamCopyProperty(writeStream, kCFStreamPropertyDataWritten);
+        CFDataRef messageBody = (CFDataRef)CFWriteStreamCopyProperty(writeStream, kCFStreamPropertyDataWritten);
         response = (CFHTTPMessageRef)CFReadStreamCopyProperty(readStream, kCFStreamPropertyHTTPResponseHeader);
         if (response) {
             CFHTTPMessageSetBody(response, messageBody);
