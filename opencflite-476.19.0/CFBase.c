@@ -1050,7 +1050,11 @@ __asm__ (
 #if defined(__i386__) || defined(__x86_64__)
 #if defined(_MSC_VER)
 void __HALT() {
-    __asm int 3;
+#if defined(__x86_64__)
+__debugbreak();
+#else
+__asm int 3;
+#endif
 }
 #else
 __asm__ (

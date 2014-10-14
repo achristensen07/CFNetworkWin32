@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="opencflite-476.19.0\CFApplicationPreferences.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFArray.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBag.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBase.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBinaryHeap.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBinaryPList.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBitVector.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBuiltinConverters.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBundle.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFBundle_Resources.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFCalendar.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFCharacterSet.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFConcreteStreams.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFData.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFDate.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFDateFormatter.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFDictionary.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFError.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFFileUtilities.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFLocale.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFLocaleIdentifier.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFMachPort.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFMessagePort.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFNumber.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFNumberFormatter.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPlatform.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPlugIn.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPlugIn_Factory.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPlugIn_Instance.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPlugIn_PlugIn.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPreferences.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFPropertyList.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFRunLoop.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFRuntime.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFSet.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFSocket.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFSocketStream.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFSortFunctions.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFStorage.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFStream.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFString.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFStringEncodingConverter.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFStringEncodings.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFStringScanner.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFStringUtilities.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFSystemDirectories.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFTimeZone.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFTree.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFUniChar.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFUnicodeDecomposition.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFUnicodePrecomposition.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFURL.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFURLAccess.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFUserNotification.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFUtilities.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFUUID.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFVersion.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFWindowsMessageQueue.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFXMLInputStream.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFXMLNode.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFXMLParser.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFXMLPreferencesDomain.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\CFXMLTree.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\compat\dirent.c">
+      <Filter>source\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\compat\flsl.c">
+      <Filter>source\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\compat\gettimeofday.c">
+      <Filter>source\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\compat\strlcat.c">
+      <Filter>source\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="opencflite-476.19.0\compat\strlcpy.c">
+      <Filter>source\compat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opencflite-476.19.0\CFXMLParser.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFArray.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBag.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBase.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBinaryHeap.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBitVector.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBundle.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBundle_BinaryTypes.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBundle_Internal.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFBundlePriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFByteOrder.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFCalendar.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFCharacterSet.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFCharacterSetPriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFData.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFDate.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFDateFormatter.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFDictionary.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFError.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFError_Private.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFInternal.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFLocale.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFLogUtilities.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFMachPort.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFMessagePort.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFNumber.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFNumberFormatter.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFPlugIn.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFPlugIn_Factory.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFPlugInCOM.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFPreferences.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFPriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFPropertyList.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFRunLoop.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFRunLoopPriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFRuntime.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFSet.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFSocket.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStorage.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStream.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStreamAbstract.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStreamInternal.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStreamPriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFString.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStringDefaultEncoding.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStringEncodingConverter.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStringEncodingConverterExt.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStringEncodingConverterPriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFStringEncodingExt.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFTimeZone.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFTree.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFUniChar.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFUniCharPriv.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFUnicodeDecomposition.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFUnicodePrecomposition.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFURL.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFURLAccess.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFUserNotification.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFUUID.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFWindowsMessageQueue.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFXMLInputStream.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\CFXMLNode.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="opencflite-476.19.0\compat\dirent.h">
+      <Filter>headers\compat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{b482a3dc-17c5-4beb-8fb2-0e9ae0711eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{afdfd299-9c17-4de6-8733-af99673edcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\compat">
+      <UniqueIdentifier>{6d3da11b-6508-4750-b921-0ba7329c0bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\compat">
+      <UniqueIdentifier>{a568142b-92ac-4f40-9d31-cc7aebb136a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

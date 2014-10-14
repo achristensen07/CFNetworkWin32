@@ -454,7 +454,7 @@ CF_INLINE CFHashCode _CFHashInt(long i) {
     return ((i > 0) ? (CFHashCode)(i) : (CFHashCode)(-i)) * HASHFACTOR;
 }
 
-#if _MSC_VER
+#if _MSC_VER < 1600
 CF_INLINE long rint(double x) {
    return (long) floor (x + 0.5);
 }
